@@ -28,6 +28,19 @@ use Cake\Event\Event;
 class AppController extends Controller
 {
 
+        public $helpers = [
+        'Form' => [
+            'className' => 'Bootstrap.Form'
+        ],
+        'Html' => [
+            'className' => 'Bootstrap.Html'
+        ],
+        'Paginator' => [
+            'className' => 'Bootstrap.Paginator'
+        ],
+
+    ];
+
     /**
      * Initialization hook method.
      *
@@ -51,5 +64,10 @@ class AppController extends Controller
          * see https://book.cakephp.org/3/en/controllers/components/security.html
          */
         //$this->loadComponent('Security');
+
+        $this->viewBuilder()->setLayout('metronic');
+
+        
     }
+
 }

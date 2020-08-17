@@ -34,6 +34,10 @@ class Application extends BaseApplication
      */
     public function bootstrap()
     {
+        $this->addPlugin('Authentication');
+
+        $this->addPlugin('Metronic');
+
         // Call parent to load bootstrap from files.
         parent::bootstrap();
 
@@ -49,7 +53,7 @@ class Application extends BaseApplication
             $this->addPlugin('DebugKit');
         }
 
-        // Load more plugins here
+        $this->addPlugin('Bootstrap');
     }
 
     /**
