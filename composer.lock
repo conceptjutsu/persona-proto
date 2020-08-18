@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a9c3dbd9b644b07b6fed617396d34760",
+    "content-hash": "654e529dbc85feb7ccd9e06e928da41c",
     "packages": [
         {
             "name": "aura/intl",
@@ -293,48 +293,6 @@
             ],
             "description": "A composer installer for CakePHP 3.0+ plugins.",
             "time": "2019-11-12T10:21:19+00:00"
-        },
-        {
-            "name": "holt59/cakephp3-bootstrap-helpers",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Holt59/cakephp3-bootstrap-helpers.git",
-                "reference": "b83997332d2e6067bc226729d21786d073be54f4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Holt59/cakephp3-bootstrap-helpers/zipball/b83997332d2e6067bc226729d21786d073be54f4",
-                "reference": "b83997332d2e6067bc226729d21786d073be54f4",
-                "shasum": ""
-            },
-            "require": {
-                "cakephp/cakephp": ">=3.7.0",
-                "php": ">=5.5.9"
-            },
-            "require-dev": {
-                "cakephp/cakephp-codesniffer": "~2.1",
-                "phpunit/phpunit": "<6.0"
-            },
-            "type": "cakephp-plugin",
-            "extra": {
-                "installer-name": "Bootstrap"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Bootstrap\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Bootstrap Helpers for CakePHP 3.0",
-            "keywords": [
-                "bootstrap",
-                "cakephp"
-            ],
-            "time": "2020-01-29T19:16:54+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
@@ -5003,7 +4961,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "holt59/cakephp3-bootstrap-helpers": 20,
         "psy/psysh": 0
     },
     "prefer-stable": true,
